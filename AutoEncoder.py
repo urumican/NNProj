@@ -1,3 +1,40 @@
+# ## Parameters tuning
+# _Deep neural network usually need lots of work for tuning._
+# 
+# **parameters to tune:**
+# * epoch number
+# * optimizers
+# * hidden layer number (optional)
+# * neuron number each hidden layer
+# * random seed
+
+# In[ ]:
+
+# TUNING
+# modularization
+
+# parameters: 
+# 0. epoch number
+# 1. optimizers
+# 2. neuron number each hidden layer
+# 3. X_train
+# 4. y_train
+# 5. X_test
+# 6. y_test
+
+# parameters:
+# 'epoch'
+# 'epoch_pretraining'
+# 'optimizer'
+# 'neuron'
+# 'X_train'
+# 'y_train'
+# 'X_test'
+# 'y_test'
+
+
+# parameters = ['epoch number', 'optimizers', 'hidden layer number', 'neuron number each hidden layer']
+
 def stackedAutoencoder(parameters):
 
     # Stacked Autoencoder
